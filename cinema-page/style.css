@@ -5,7 +5,7 @@ body {
 
 .header {
   padding: 25px;
-  background-color: #0a7de7;
+  background-color: #3c92e2;
   text-align: center;
 }
 
@@ -15,7 +15,7 @@ h1 {
 
 .topnav {
   padding: 25px;
-  background-color: #3d75c9;
+  background-color: #eb8f52;
 }
 
 .topnav a {
@@ -31,28 +31,20 @@ h1 {
   float: right;
 }
 
-.movies {
-  padding: 200px;
-  width: 100%;
-  background-color: #5cb5df;
-  float: left;
-}
-
-.gallery {
-  margin: 5px;
+div.gallery {
+  margin: 12px;
   border: 1px solid black;
   float: left;
   width: 150px;
-  margin-left: 20px;
 }
 
-.gallery img {
+div.gallery img {
   width: 100%;
   height: auto;
 }
 
-.gallery .desc {
-  padding: 15px;
+div.desc {
+  padding: 5px;
   text-align: center;
   color: 0;
   background-color: white;

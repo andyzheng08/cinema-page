@@ -6,7 +6,7 @@ body {
 
 .header {
     padding: 25px;
-    background-color: rgb(10, 125, 231);
+    background-color: rgb(60, 146, 226);
     text-align: center;
 }
 
@@ -16,7 +16,7 @@ h1 {
 
 .topnav {
     padding: 25px;
-    background-color: #3d75c9;
+    background-color: #eb8f52;
 }
 
 .topnav a {
@@ -32,35 +32,31 @@ h1 {
     float: right;
 }
 
-.movies  {
-    padding: 200px;
-    width: 100%;
-    background-color: rgb(92, 181, 223);
-    float: left;
+.movies {
+    color: #eb8f52;
+    overflow: hidden;
+    padding: 1000px;
 }
 
-
-.gallery {
-    margin: 5px;
+div.gallery {
+    margin: 12px;
     border: 1px solid rgb(0, 0, 0);
     float: left;
     width: 150px;
-    margin-left: 20px;
 }
 
-.gallery img {
+div.gallery img {
     width: 100%;
     height: auto;
 }
 
-.gallery .desc {
-    padding: 15px;
+div.desc {
+    padding: 5px;
     text-align: center;
     color: blue($color: #000000);
     background-color: rgb(255, 255, 255);
 }
  
-
 
 
 
